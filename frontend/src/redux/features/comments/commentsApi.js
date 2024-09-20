@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const commentApi = createApi({
   reducerPath: 'commentApi',
   baseQuery: fetchBaseQuery({ 
-    baseUrl: 'https://test2-lake-kappa.vercel.app/api/comments',
+    baseUrl: 'https://backend-blue-beta-80.vercel.app/api/comments',
     credentials: 'include',
   }),
   tagTypes: ['Comments'], // Define the tag types
